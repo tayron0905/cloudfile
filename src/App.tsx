@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+mport { useEffect, useMemo, useRef, useState } from 'react'
 import type { FormEvent, ReactNode } from 'react'
 import {
   Activity, ArrowDownToLine, Check, ChevronRight, Cloud, File,
@@ -8,7 +8,7 @@ import {
 } from 'lucide-react'
 import {
   account, bucketId, configReady, databases, databaseId, filesCollectionId,
-  foldersCollectionId, ID, Permission, Query, Role, storage, userPermissions,
+  foldersCollectionId, ID, Query, storage, userPermissions,
   type CloudFileRecord, type CloudFolder
 } from './lib/appwrite'
 
